@@ -1,0 +1,7 @@
+{
+    "name": "xml_to_parquet",
+    "piv": "3.6.2",
+    "type": "Python-ScriptSuite",
+    "main_files": [],
+    "deploy": "L"
+}
