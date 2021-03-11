@@ -159,11 +159,11 @@ DEBUG - 2021-01-21 12:38:00 - Completed 3.xml
 JSON equivalent output for PurchaseOrder.parquet
 ```json
 ls -l *.parquet
--rw-rw-r-- 1 leed users 3714 Jan 21 12:39 1.parquet
--rw-rw-r-- 1 leed users 3714 Jan 21 12:39 2.parquet
--rw-rw-r-- 1 leed users 3714 Jan 21 12:39 3.parquet
--rw-rw-r-- 1 leed users 3714 Jan 21 12:39 4.parquet
--rw-rw-r-- 1 leed users 3714 Jan 21 12:39 PurchaseOrder.parquet
+-rw-rw-r-- 1 user users 3714 Jan 21 12:39 1.parquet
+-rw-rw-r-- 1 user users 3714 Jan 21 12:39 2.parquet
+-rw-rw-r-- 1 user users 3714 Jan 21 12:39 3.parquet
+-rw-rw-r-- 1 user users 3714 Jan 21 12:39 4.parquet
+-rw-rw-r-- 1 user users 3714 Jan 21 12:39 PurchaseOrder.parquet
 
 {"purchaseOrder":{"purchaseOrder@orderDate":"1999-10-20 00:00:00.000","items":{"item":[{"item@partNum":"872-AA","productName":"Lawnmower","quantity":1,"USPrice":148.95,"comment":"Confirm this is electric","shipDate":null},{"item@partNum":"926-AA","productName":"Baby Monitor","quantity":1,"USPrice":39.98,"comment":null,"shipDate":"1999-05-21 00:00:00.000"}]}}}
 ```
